@@ -139,9 +139,7 @@ This experience helped me improve my skills in React development, JavaScript, Gi
 |------|--------|------|---------------|
 | Caroline Wanjira | [@Caroline-wanjira](https://github.com/Caroline-wanjira) | Team Lead | Setup, User profiles |
 | Wesala | [@Wesala-crypto](https://github.com/Wesala-crypto) | Developer | To be assigned |
-| Faith Mutisya | [@fairyfaiyth](https://github.com/fairyfaiyth) | Developer | To be assigned |
-
-## Weekly Log
+| Faith Mutisya | [@fairyfaiyth](https://github.com/fairyfaiyth) | Developer | To be assigned
 
 ### @Caroline-wanjira
 
@@ -152,6 +150,9 @@ This experience helped me improve my skills in React development, JavaScript, Gi
   - [#6 Add Intro Component.jsx](https://github.com/Caroline-wanjira iyf-s12-communityhub-team-Caroline-wanjira/pull/6)
   - [#7 Add Header.jsx](https://github.com/Caroline-wanjira iyf-s12-communityhub-team-Caroline-wanjira/pull/7)
   - [#8 Add Footer, Button Sidebar, PostCard components ](https://github.com/Caroline-wanjira iyf-s12-communityhub-team-Caroline-wanjira/pull/8)
-  
+  -  [#10 Add greeting component ](https://github.com/Caroline-wanjira iyf-s12-communityhub-team-Caroline-wanjira/pull/10)
+  -  [#13 Add card component ](https://github.com/Caroline-wanjira iyf-s12-communityhub-team-Caroline-wanjira/pull/13)
+  -   [#15 Add conditional rendering patterns ](https://github.com/Caroline-wanjira iyf-s12-communityhub-team-Caroline-wanjira/pull/15)
+  -    [#16 Add counter component ](https://github.com/Caroline-wanjira iyf-s12-communityhub-team-Caroline-wanjira/pull/16)
 - **PRs I reviewed:** none yet
-- **Issues I closed:** none yet
+- **Issues I closed:** #3 User Profiles
