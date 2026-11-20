@@ -153,5 +153,5 @@ This experience helped me improve my skills in React development, JavaScript, Gi
   - [#7 Add Header.jsx](https://github.com/Caroline-wanjira iyf-s12-communityhub-team-Caroline-wanjira/pull/7)
   - [#8 Add Footer, Button Sidebar, PostCard components ](https://github.com/Caroline-wanjira iyf-s12-communityhub-team-Caroline-wanjira/pull/8)
   
-- **PRs I reviewed:** none yet
-- **Issues I closed:** none yet
+- **PRs I reviewed:** none
+- **Issues I closed:** #
