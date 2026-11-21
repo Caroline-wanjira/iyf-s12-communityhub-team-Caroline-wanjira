@@ -1,0 +1,79 @@
+.shell { min-height: 100vh; display: flex; flex-direction: column; }
+
+/* ---------- Header ---------- */
+.header { background: var(--brand); color: #fff; }
+.headerInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+}
+.logo {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+.navList { list-style: none; display: flex; flex-wrap: wrap; gap: 0.25rem; margin: 0; padding: 0; }
+.navLink {
+  display: block;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+.navLink:hover { background: var(--brand-dark); }
+.active { background: var(--accent); color: var(--ink); }
+.active:hover { background: var(--accent); }
+.header :focus-visible { outline-color: #fff; }
+.menuButton {
+  display: none;
+  margin-left: auto;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+}
+.userArea { margin-left: auto; display: flex; align-items: center; gap: 0.75rem; font-size: 0.95rem; }
+
+/* ---------- Page body ---------- */
+.body {
+  flex: 1;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 1.5rem;
+  align-items: start;
+}
+.main { min-width: 0; }
+.sidebar { display: grid; gap: 1rem; }
+.stats, .quickLinks { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.4rem; }
+
+/* On tablets and phones the sidebar moves below the page content. */
+@media (max-width: 860px) {
+  .body { grid-template-columns: 1fr; }
+  .userArea { margin-left: 0; }
+}
+
+/* On phones the navigation collapses behind a Menu button. */
+@media (max-width: 700px) {
+  .menuButton { display: block; }
+  .nav { display: none; width: 100%; }
+  .navOpen { display: block; }
+  .navList { flex-direction: column; }
+}
+
+/* ---------- Footer ---------- */
+.footer { background: var(--ink); color: #dfe8e5; text-align: center; padding: 1rem; }
+.footer p { margin: 0; }

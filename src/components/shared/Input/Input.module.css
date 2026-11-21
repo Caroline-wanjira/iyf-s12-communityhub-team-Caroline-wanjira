@@ -1,0 +1,15 @@
+.wrapper { margin-bottom: 1rem; }
+.label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+.required { color: var(--danger); }
+.field {
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  font: inherit;
+  color: var(--ink);
+  background: #fff;
+  border: 2px solid #8a9b97;
+  border-radius: 6px;
+}
+.field:focus-visible { border-color: var(--focus); }
+.fieldError { border-color: var(--danger); }
+.error { margin: 0.25rem 0 0; color: var(--danger); font-size: 0.9rem; }
