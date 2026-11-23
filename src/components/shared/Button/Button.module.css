@@ -1,0 +1,47 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.small { padding: 0.3rem 0.75rem; font-size: 0.875rem; }
+.medium { padding: 0.55rem 1.1rem; }
+.large { padding: 0.8rem 1.6rem; font-size: 1.1rem; }
+.fullWidth { width: 100%; }
+
+.primary { background: var(--brand); color: #fff; }
+.primary:hover:not(:disabled) { background: var(--brand-dark); }
+
+.secondary { background: #e2e9e6; color: var(--ink); }
+.secondary:hover:not(:disabled) { background: #d2dcd8; }
+
+.outline { background: transparent; color: var(--brand); border-color: var(--brand); }
+.outline:hover:not(:disabled) { background: #e3f0ed; }
+
+.danger { background: var(--danger); color: #fff; }
+.danger:hover:not(:disabled) { background: #8f1e18; }
+
+.ghost { background: transparent; color: var(--ink); }
+.ghost:hover:not(:disabled) { background: #e2e9e6; }
+
+.spinner {
+  width: 1em;
+  height: 1em;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }

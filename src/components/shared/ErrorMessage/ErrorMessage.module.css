@@ -1,0 +1,8 @@
+.box {
+  background: #fdeceb;
+  border: 1px solid #e5aaa6;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+}
+.text { margin: 0 0 0.75rem; color: #7a1812; font-weight: 600; }
+.box > :last-child { margin-bottom: 0; }

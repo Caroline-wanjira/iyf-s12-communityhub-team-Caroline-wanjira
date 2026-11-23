@@ -1,0 +1,57 @@
+/* Styles shared by the pages. */
+.pageHeader { margin-bottom: 1.25rem; }
+.pageHeader h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+.lead { color: var(--muted); margin: 0; }
+
+.hero {
+  background: var(--brand);
+  color: #fff;
+  border-radius: 14px;
+  padding: 2rem 1.5rem;
+  margin-bottom: 2rem;
+}
+.hero h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); }
+.hero p { max-width: 52ch; margin: 0 0 1.25rem; color: #e4f0ed; }
+.heroActions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.heroButton { background: var(--accent); color: var(--ink); }
+.heroButton:hover:not(:disabled) { background: #ffc95a; }
+
+.sectionHeader { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.75rem; }
+.sectionHeader h2 { margin: 0; font-size: 1.4rem; }
+
+.searchRow { max-width: 420px; }
+.resultCount { color: var(--muted); margin: 0 0 1rem; }
+
+.backLink { display: inline-block; margin-bottom: 1rem; }
+.postBody { font-size: 1.1rem; max-width: 65ch; white-space: pre-line; }
+.detailTitle { font-size: 2rem; text-transform: capitalize; }
+.comments { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; }
+.commentName { font-weight: 700; margin: 0 0 0.25rem; text-transform: capitalize; }
+.commentBody { margin: 0; color: var(--muted); }
+
+.narrow { max-width: 520px; }
+.prose { max-width: 65ch; }
+.prose ul { padding-left: 1.2rem; }
+
+/* ----- Challenges ----- */
+.challengeGrid { list-style: none; margin: 0; padding: 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.challengeGrid h2 { font-size: 1.15rem; }
+.challengeGrid p { color: var(--muted); margin-top: 0; }
+
+.timerDisplay { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 3.5rem; font-weight: 700; margin: 0.5rem 0 1rem; }
+.buttonRow { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+.userList { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; }
+.userItem { display: flex; align-items: center; gap: 0.75rem; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 0.75rem 1rem; }
+.userItem p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+.userItem strong { display: block; color: var(--ink); }
+
+.profileHead { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.profileHead h1 { margin: 0; }
+.profileHead p { margin: 0; color: var(--muted); }
+.infoList { display: grid; grid-template-columns: max-content 1fr; gap: 0.4rem 1rem; margin: 0; }
+.infoList dt { font-weight: 700; }
+.infoList dd { margin: 0; }
+.todoList { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.4rem; }
+.done { color: var(--muted); text-decoration: line-through; }
+.userPicker { margin-bottom: 1rem; max-width: 280px; }

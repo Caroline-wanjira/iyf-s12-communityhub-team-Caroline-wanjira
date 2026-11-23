@@ -1,0 +1,16 @@
+.list { display: flex; gap: 0.25rem; border-bottom: 2px solid var(--line); flex-wrap: wrap; }
+.tab {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  padding: 0.6rem 1rem;
+  font: inherit;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+}
+.tab:hover { color: var(--ink); }
+.active { color: var(--brand); border-bottom-color: var(--brand); }
+.panel { padding: 1.25rem 0; animation: fadeIn 0.25s ease; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
