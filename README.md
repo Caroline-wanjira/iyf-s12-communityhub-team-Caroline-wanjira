@@ -128,3 +128,19 @@ visible focus outline, descriptive link and button text, `aria-pressed` on like 
 ## Team contributions
 
 _Add each team member's name and what they built here. This file did not contain any existing team information when it was generated._
+
+## iyf-s12-communityhub-team-Caroline-wanjira
+## Caroline-wanjira
+## Accessibility audit (Task 18.4)
+
+Tool: Chrome DevTools Lighthouse (Accessibility), on the production build
+(`npm run build` then `npm run preview`).
+
+| Check | Page audited | Score |
+|-------|--------------|-------|
+| Before | (the page that was on screen) | 100 |
+| After | (same page) | 100 |
+
+Lighthouse found no automated failures, so no fixes were needed. Manual checks
+done: keyboard tab order, visible focus, labels on inputs, descriptive button
+text, alt text, colour contrast.
